@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Bot</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    #chat-container {
+      width: 500px;
+      height: 500px;
+      border: 1px solid black;
+    }
+    #chat-output {
+      height: 400px;
+      overflow: scroll;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-output"></div>
+    <input type="text" id="chat-input">
+    <button id="chat-submit">Submit</button>
+  </div>
+  <script>
+    $("#chat-submit").click(function() {
+      var message = $("#chat-input").val();
+      $("#chat-output").append("<p>" + message + "</p>");
+      $("#chat-input").val("");
+    });
+  </script>
+</body>
+</html>

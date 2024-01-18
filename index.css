@@ -1,4 +1,133 @@
-#chat-container {
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-tab {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.left-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-tab li {
+    margin-bottom: 10px;
+}
+
+.left-tab a {
+    display: block;
+    padding: 5px 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.left-tab img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.right-content {
+    float: right;
+    width: calc(100% - 200px);
+    padding: 10px;
+    background-color: #fff;
+}
+
+.robot-info {
+    margin-bottom: 20px;
+}
+
+.robot-info p {
+    margin-bottom: 5px;
+}
+
+.task-list {
+    margin-bottom: 20px;
+}
+
+.task-list h2 {
+    margin-bottom: 10px;
+}
+
+.task-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.task-list li {
+    margin-bottom: 10px;
+}
+
+.robot-list {
+    margin-bottom: 20px;
+}
+
+.robot-list h2 {
+    margin-bottom: 10px;
+}
+
+.map-view {
+    margin-bottom: 20px;
+}
+
+.map-view h2 {
+    margin-bottom: 10px;
+}
+
+.admin-user {
+    margin-bottom: 20px;
+}
+
+.admin-user div {
+    margin-bottom: 10px;
+}
+
+.admin-user h2 {
+    margin-bottom: 10px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+
+
+/* #chat-container {
   width: 500px;
   height: 500px;
   border: 1px solid black;
@@ -7,3 +136,4 @@
   height: 400px;
   overflow: scroll;
 }
+ */
